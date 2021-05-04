@@ -1,0 +1,44 @@
+.product-page-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.product-page-content {
+  display: flex;
+  justify-content: center;
+}
+
+.title-product {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.product-page-img {
+  width: 35%;
+  margin: 2rem 2rem 4rem 0;
+}
+
+.product-img:last-child {
+  margin-right: 0;
+}
+
+.product-price {
+  display: block;
+  width: 160px;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  background: #84e;
+  color: #eee;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.product-desc {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}

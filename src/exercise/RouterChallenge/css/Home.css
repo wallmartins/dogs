@@ -1,0 +1,7 @@
+.content-home {
+  margin: 4rem auto;
+}
+
+.content-home > h2 {
+  padding-top: 3rem;
+}

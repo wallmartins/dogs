@@ -1,0 +1,40 @@
+.product-container {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+}
+
+.product-content {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.product-img {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.product-nav > ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  background: #ddd;
+  padding: 1rem 1rem;
+  margin-bottom: 4rem;
+  border-radius: 10px;
+}
+
+.product-nav > ul > li {
+  margin-right: 1rem;
+  padding: 1rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.active,
+.product-nav > ul > li:hover {
+  background: #84e;
+}
